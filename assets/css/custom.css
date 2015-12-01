@@ -1,0 +1,121 @@
+@font-face {
+font-family: Augusta;
+src: url("../fonts/augusta.eot"); /* For IE 6+ */
+}
+@font-face {
+font-family: Augusta;
+src: local("?"), url("../fonts/augusta.woff") format("woff"), url("../fonts/augusta.ttf") format("truetype"), url("../fonts/augusta.eot") format("eot"); /* For CSS3 browsers inc. Firefox */
+}
+
+body
+{
+   background-image: url("../imagenes/fondo.jpg") !important;
+}
+
+#jumbo
+{
+    background-image: url("../imagenes/fondo3.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-top: 10px;
+}
+
+#jumbo h1, .login-logo
+{
+    font-family: Augusta;
+}
+
+#contenido, .wrapper, .rellenar
+{
+    min-height: 100%;
+    height: 100%;
+}
+
+.wrapper
+{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.peque
+{
+    font-size: 40px;
+}
+
+.toast
+{
+    opacity: 1 !important;
+}
+
+#toast-container > div
+{
+    opacity: 1 !important;
+}
+
+.required:after
+{
+    content: "*";
+    color: red;
+}
+
+.sombreado
+{
+    -webkit-box-shadow: 6px 8px 5px 0px rgba(50, 50, 50, 0.49);
+    -moz-box-shadow:    6px 8px 5px 0px rgba(50, 50, 50, 0.49);
+    box-shadow:         6px 8px 5px 0px rgba(50, 50, 50, 0.49);
+}
+
+.cabecera1
+{
+    background-color: rgba(165, 146, 137, 0.6);
+}
+
+.cabecera2
+{
+    background-color: rgba(206, 174, 156, 0.6);
+}
+
+.cabecera3
+{
+    background-color: rgba(255, 219, 156, 0.6);
+}
+
+.cabecera4
+{
+    background-color: rgba(255, 157, 106, 0.2);
+}
+
+.interior
+{
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.tipo-dado
+{
+    margin-bottom: 20px;
+}
+
+.dado
+{
+    display: inline-block;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+
+.clickable
+{
+    margin-bottom: 10px !important;
+}
+
+.user-header
+{
+    height: 100px !important;
+}
+
+
+
